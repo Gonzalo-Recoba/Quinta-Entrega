@@ -1,0 +1,29 @@
+PRIMER COMMIT
+Fecha:   Martes 5 de julio de 2022 00:15:45
+commit 158b6a6f0ff7db731323347268d5bee303c0fc38 (origin/master) - subido a Github
+Primer commit proyecto. Se crea el sitio Agencia de Viajes.
+Se agrega Bootstrap 5 a las páginas: Index y Contacto.
+Se agrega contenido a las demás páginas (aviso de página en mantenimiento).
+
+
+-----------------------------------------------------------------------------
+SEGUNDO COMMIT
+Fecha:   Miércoles 6 de julio de 2022 21:25:49
+commit 7a5277f1713b978f761704a2d764b60466f42a9f (HEAD -> master) - subido a GitHub.
+Segundo repo. Se agregaron animaciones a los elementos viajes de la página index.html
+Se agregarona nimaciones a formulario de contacto y info de contacto de la página contacto.html
+Se agregó animaciones al contenido en las demás páginas (aviso de página en mantenimiento)
+Se eliminó menú desplegable paquetes del navbar y se creó paquetes.html (había superposición de elementos)
+Se agregó contenido a la página alojamientos.html
+Se movieron todos los modales a la parte inferior del documento (Entre el footer y el script).
+
+
+A mejorar:
+-Eliminar página autos.html, y quedarse con index.html; vuelos.html; alojamientos.html; paquetes.html (vuelos + alojamientos) y contacto.html
+-Página muy pesada, reducir peso de imágenes (descargar imágenes nuevamente de canva con menor resolución)
+-Hacer nuevo logo más atractivo.
+-Terminar formulario de filtros de la página index.html (ver ejemplo en carpeta ideas).
+
+-------------------------------------------------------------
+TERCER COMMIT
+

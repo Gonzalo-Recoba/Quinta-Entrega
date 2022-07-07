@@ -1,0 +1,152 @@
+/*---------------------TIPOGRAFÍA---------------------*/
+@import url("https://use.typekit.net/fgl2ufc.css");
+*{
+    font-family: fira-sans,sans-serif;
+    font-weight: 400; 
+    }
+
+/*---------------------HEADER---------------------*/
+.logo{
+    width: 5vw;
+    }
+    .w-3{
+        width: 3vw;
+    }
+    .w-10{
+        width: 5vw;
+        }
+    .w-70{
+        width: 70%;
+        }   
+    .w-90{
+        width: 90%;
+        }
+    .w-40{
+        width: 45%;
+        }
+    
+    .w-60{
+        width: 75%;
+        }
+.cuenta{
+    justify-content: end;
+    margin-left: 7vw;
+    }
+    .perfil{
+        width: 2vw;
+        min-width: 30px;
+        margin-left: 1rem;
+        }
+
+
+/*---------------------NAVBAR---------------------*/
+#mainNavigation a{
+    font-family: 'Cabin', sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    }
+    .dropdown-menu{
+        background-color: rgba(135, 206, 235, 1);
+        border: none;
+        }
+        .dropdown-toggle{
+        color:#000000 !important
+        }
+        .dropdown-item{
+            text-align: left;
+            }
+        .dropdown-item:hover{
+            color: black;
+            background-color: #dfdfdf;
+            }
+        .nav-item a:hover{
+            color:#fff;
+            background-color: rgba(135, 206, 235, .5);
+            }
+        .nav-item a{
+            color:#000000;
+            text-align: center;
+            }
+        .nav-item{
+            min-width:12vw;
+            }
+#mainNavigation{
+    top:0;
+    left:0;
+    width:100%;
+    padding-bottom:15px;
+    background-image: url(../img/vuelos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:70%;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+    }
+#navbarNavDropdown.collapsing .navbar-nav, #navbarNavDropdown.show .navbar-nav{
+    padding:12px;
+    }
+
+
+
+/*---------------------MAIN---------------------*/
+
+.btn-skyblue{
+    background-color: rgba(135, 206, 235, .5);
+    z-index: 2;
+    }   
+.text-justify{
+    text-align: justify;
+    }
+.card{
+    z-index: -1;
+    }
+
+
+/*---------------------FOOTER---------------------*/
+footer{
+    padding: 1rem 0;
+    margin-top: 5vw;
+    background-color: rgba(135, 206, 235, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+
+    .redes-sociales{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+
+    .pie-contacto{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+
+        footer h6{
+            text-align: center;
+            grid-area: piecopy;
+            color: black;
+            }
+
+            img[alt^="icono"]{
+                width: 30px;
+                }
+
+        .redes-sociales, .pie-contacto, footer h6{
+            margin-bottom: 0;
+        }
+
+
+/*=====@MEDIA 768=====*/
+@media screen and (max-width: 768px){
+        .nav-item a{
+            text-align: left;
+            }
+            .redes-sociales, .pie-contacto, footer h6{
+                margin-bottom: 1rem;}
+}
+
+
